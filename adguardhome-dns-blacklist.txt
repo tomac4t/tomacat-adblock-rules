@@ -1,0 +1,106 @@
+! personalDNSfilter DNS probe
+/www\.t\d{8,10}\.org/
+! Google
+||beacons.gvt2.com^
+! Tencent
+||report.url.cn^
+||test.ark.qq.com^
+||ipv4.gdt.qq.com^
+||punch.p2p.qq.com^
+||stun.qqlive.qq.com^
+||btrace.qq.com^
+||apd-pcdnvodstat.teg.tencent-cloud.net^
+||apd-vodp2preport.teg.tencent-cloud.net^
+||apd-pcdnwxstat.teg.tencent-cloud.net^
+!!msfwifi.3g.qq.com
+*.3g.qq.com
+! Wechat
+||wxa.wxs.qq.com^
+||wxsnsdy.wxs.qq.com^
+||wxsnsdythumb.wxs.qq.com^
+!! https://dns.weixin.qq.com/cgi-bin/micromsg-bin/newgetdns
+||dns.weixin.qq.com.cn^
+||badjs.weixinbridge.com^
+||log.weixin.qq.com^
+! X-P2P 
+||qvb.qcloud.com^
+!||log.qvb.qcloud.com^
+||tracker-01.qvb.qcloud.com^
+! Zhihu
+||datahub.zhihu.com^
+! Duokan 
+||z.qingting.fm^
+||data.game.xiaomi.com^
+||relocationapi.micloud.xiaomi.net^
+||reader-api.kkmh.com^
+||rec.z.qingting.fm^
+||opensdkapi.qidian.com^
+||dm.bytedance.com^
+! Alibaba
+||loggw.alipay.com^
+||loggw-ex.alipay.com^
+!||log.mmstat.com^$important
+! Taobao
+||alimelog.taobao.com^
+!@@||amdc.m.taobao.com^$important
+!! neohosts unbreak
+@@||click.mz.simba.taobao.com^
+! Baidu Ad CNAME (break)
+!||yjs-cdn.com^
+!www.renfei.net
+!!@@||geolocation.onetrust.com^
+! Getui SDK
+||sdk-open-phone.getui.com^
+||sdk.open.talk.getui.com^
+! Meizu SDK (push)
+||norma-external-collect.meizu.com^
+! oneplus OTA
+||otac.h2os.com^
+! Oppo Oneplus heytap
+||mdp-usertrace-cn.heytapmobi.com^
+||ads.heytapmobi.com^
+||conn*.coloros.com^
+||conn*.oppomobile.com^
+!||gateway.oneplus.cn^
+!||heytapdownload.com^
+!||dc.oppomobile.com^
+!||jits.heytapmobi.com^
+||vip-client.heytapmobi.com^
+||icredits.heytapmobi.com^
+||httpdns.ocloud.heytapmobi.com^
+! HMS
+||sdkserver-drcn.op.dbankcloud.cn^
+! Xiaomi
+||tracker.ai.xiaomi.com^
+! Mozilla
+||telemetry.mozilla.org^
+! China Mobile
+||log1.cmpassport.com^
+||senlog.cmpassport.com^
+! Bilibili
+||ali-web-player-tracker.biliapi.net^
+||hw-v2-web-player-tracker.biliapi.net^
+! Keep
+||uplog.qbox.me^$important
+||httpdns.calorietech.com^$important
+||kit-device-log-1252363965.cos.ap-beijing.myqcloud.com^
+!https://m.gotokeep.com/fd-page/partner/animation?fullscreen=true&type=kg
+||apm.gotokeep.com^
+||app-apm.gotokeep.com^
+! https://github.com/AdguardTeam/AdguardFilters/issues/149689
+@@||xtracloud.net^
+@@||izatcloud.net^
+! watch | unknown | unclassified
+||logconf.iflytek.com^
+||click.abchina.com^
+||pageviewp.icbc.com.cn^
+||goods.iciba.com^
+||applog-perf.uc.cn^
+||trace.hjq.komect.com^
+||mlog.wangsu.com^
+||aads.shuzilm.cn^
+||api.htp.ad-scope.com.cn^
+||btrace.play.t002.ottcn.com^
+||mtrace.play.t002.ottcn.com^
+||errorlog.sobot.com^
+||logreport.xiaoeknow.com^
