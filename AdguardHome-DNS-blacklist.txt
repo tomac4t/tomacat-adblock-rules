@@ -39,12 +39,16 @@
 ! Alibaba
 ||loggw.alipay.com^
 ||loggw-ex.alipay.com^
+||loggw.alipay.com.cn^
 !||log.mmstat.com^$important
 ! Taobao
 ||alimelog.taobao.com^
 !@@||amdc.m.taobao.com^$important
 !! neohosts unbreak
 @@||click.mz.simba.taobao.com^
+! Amap
+@@||offline.aps.amap.com^
+@@||aps.amap.com^
 ! Baidu Ad CNAME (break)
 !||yjs-cdn.com^
 !www.renfei.net
@@ -52,6 +56,12 @@
 ! Getui SDK
 ||sdk-open-phone.getui.com^
 ||sdk.open.talk.getui.com^
+||sdk.open.talk.getui.net^
+! Getui unknown
+||cm-10-62.getui.com^
+||talk.nz4.gepush.com
+||talk.nz4.getui.net
+||talk.nz4.getui.com
 ! Meizu SDK (push)
 ||norma-external-collect.meizu.com^
 ! oneplus OTA
@@ -77,9 +87,6 @@
 ! China Mobile
 ||log1.cmpassport.com^
 ||senlog.cmpassport.com^
-! Bilibili
-||ali-web-player-tracker.biliapi.net^
-||hw-v2-web-player-tracker.biliapi.net^
 ! Keep
 ||uplog.qbox.me^$important
 ||httpdns.calorietech.com^$important
@@ -92,9 +99,10 @@
 @@||izatcloud.net^
 ! watch | unknown | unclassified
 ||logconf.iflytek.com^
-||click.abchina.com^
 ||pageviewp.icbc.com.cn^
 ||goods.iciba.com^
+||activity.iciba.com
+||feedback.kingsoft.com^
 ||applog-perf.uc.cn^
 ||trace.hjq.komect.com^
 ||mlog.wangsu.com^
@@ -104,3 +112,4 @@
 ||mtrace.play.t002.ottcn.com^
 ||errorlog.sobot.com^
 ||logreport.xiaoeknow.com^
+@@||t.co^
