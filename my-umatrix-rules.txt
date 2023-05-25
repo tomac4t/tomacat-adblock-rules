@@ -190,6 +190,7 @@ baidu.com bdstatic.com * allow
 baidu.com fanyi-cdn.cdn.bcebos.com * allow
 baidu.com imgstat.baidu.com * block
 baidu.com log.news.baidu.com * block
+bard.google.com test-waa-pa.sandbox.googleapis.com * allow
 bbc.co.uk akamaized.net * allow
 bbc.co.uk bbc.com * allow
 bbc.co.uk bbci.co.uk * allow
@@ -265,6 +266,7 @@ crowdin.com d2gma3rgtloi6d.cloudfront.net * allow
 crowdin.com d2srrzh48sp2nh.cloudfront.net * allow
 csdn.net csdnimg.cn * allow
 ctrip.com c-ctrip.com * allow
+ctrip.com tripcdn.cn * allow
 dell.com dellcdn.com * allow
 digitalocean.com cloud-cdn-digitalocean-com.global.ssl.fastly.net * allow
 digitalocean.com d2t77mnxyo7adj.cloudfront.net * allow
@@ -425,6 +427,8 @@ ip-api.com ip-api.com * inherit
 ipip.net google.cn * allow
 ipip.net skt.ipip.net * block
 ipip.net v6sc.ipip.net fetch allow
+iqair.com airvisual.com * allow
+iqair.com airvisual.io * allow
 iqiyi.com iqiyipic.com * allow
 iqiyi.com qiyi.com * allow
 iqiyi.com qiyipic.com * allow
@@ -676,6 +680,8 @@ twitch.tv twitchcdn.net * allow
 twitch.tv twitchsvc.net * allow
 twitter.com edgecastcdn.net * allow
 twitter.com twimg.com * allow
+ustream.tv * fetch allow
+ustream.tv * script allow
 vice.cn alicdn.com * allow
 vice.cn cibntv.net * allow
 vice.cn youku.com * allow
