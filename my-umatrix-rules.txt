@@ -117,6 +117,7 @@ referrer-spoof: wsj.com false
 1688.com tmall.com * allow
 19lou.com citysbs.com * allow
 360doc.com * script block
+36kr.com 36krcdn.com * allow
 36kr.com 36krcnd.com * allow
 39.107.108.81 aliyuncs.com * allow
 4kvm.com 127.net * allow
@@ -190,7 +191,6 @@ baidu.com bdstatic.com * allow
 baidu.com fanyi-cdn.cdn.bcebos.com * allow
 baidu.com imgstat.baidu.com * block
 baidu.com log.news.baidu.com * block
-bard.google.com test-waa-pa.sandbox.googleapis.com * allow
 bbc.co.uk akamaized.net * allow
 bbc.co.uk bbc.com * allow
 bbc.co.uk bbci.co.uk * allow
@@ -224,6 +224,10 @@ bloomberg.com gstatic.cn * allow
 brew.sh algolia.net * allow
 brew.sh algolianet.com * allow
 caiyunapp.com amap.com * allow
+calorietech.com apm.gotokeep.com * block
+calorietech.com app-apm.gotokeep.com * block
+calorietech.com gotokeep.com * allow
+calorietech.com keepcdn.com * allow
 cctalk.com hjfile.cn * allow
 cctv.com alicdn.com * allow
 cctv.com baishancdnx.cn * allow
@@ -399,6 +403,7 @@ humblebundle.com akamaihd.net * allow
 humblebundle.com google.com * allow
 humblebundle.com gstatic.com * allow
 humblebundle.com stripe.com * allow
+hupu.com hoopchina.com.cn * allow
 huxiu.com huxiucdn.com * allow
 huya.com hiido.com * allow
 huya.com msstatic.com * allow
@@ -432,6 +437,7 @@ iqair.com airvisual.io * allow
 iqiyi.com iqiyipic.com * allow
 iqiyi.com qiyi.com * allow
 iqiyi.com qiyipic.com * allow
+itellyou.cn cdn.staticfile.org script allow
 ithome.com pstatp.com * allow
 itsfoss.com wp.com * allow
 jandan.net bdimg.com * allow
@@ -510,7 +516,9 @@ nasa.gov ustream.tv * allow
 nasa.gov ustream.tv frame allow
 ncss.cn chei.com.cn * allow
 netflix.com nflxext.com * allow
+nga.cn 178.com * allow
 nytimes.com nyt.com * allow
+nytimes.com www.nytimes.com script block
 oneplus.com heytapmobi.com * allow
 oneplus.com oneplus.cn * allow
 oneplus.com oppo.com * allow
@@ -518,6 +526,7 @@ oneplus.com oppomobile.com * allow
 ooni.org matomo.ooni.org * block
 ooni.org ooni.io * allow
 ooni.org sentry.io * allow
+openai.com azureedge.net * allow
 opencellid.org locationiq.com * allow
 opencellid.org mapbox.com * allow
 opencellid.org sentry.io * allow
@@ -532,6 +541,7 @@ pinterest.com s.pinimg.com script allow
 piwik.org piwik.org * inherit
 pornhub.com phncdn.com * allow
 protonmail.com protonmail.ch * allow
+qcc.com qichacha.com * allow
 qidian.com gtimg.com * allow
 qmail.com mail.qq.com * allow
 qmail.com qqmail.com * allow
@@ -553,7 +563,6 @@ qq.com weixinbridge.com * allow
 qq.com y.gtimg.cn * allow
 quora.com quora.com cookie block
 quora.com quoracdn.net * allow
-quora.com www.quora.com cookie allow
 qweather.com qweather.net * allow
 radio.garden * media allow
 reddit.com redditstatic.com * allow
@@ -640,6 +649,7 @@ tencent.com tencentcs.cn * allow
 tencent.com tencentcs.com * allow
 tencent.com woa.com * allow
 tenpay.com gtimg.cn * allow
+theatlantic.com cdn.theatlantic.com script block
 theinitium.com d32kak7w9u5ewj.cloudfront.net * allow
 thepaper.cn alicdn.com * allow
 tianya.cn tianyaui.com * allow
