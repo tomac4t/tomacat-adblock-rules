@@ -20,6 +20,7 @@ referrer-spoof: amap.com false
 referrer-spoof: behind-the-scene false
 referrer-spoof: bilibili.com false
 referrer-spoof: bloomberg.com false
+referrer-spoof: earthengine.app false
 referrer-spoof: freebuf.com false
 referrer-spoof: gditu.net false
 referrer-spoof: h2os.com false
@@ -28,6 +29,7 @@ referrer-spoof: mozilla.com false
 referrer-spoof: nasa.gov false
 referrer-spoof: opencellid.org false
 referrer-spoof: taobao.com false
+referrer-spoof: weibo.com false
 referrer-spoof: wsj.com false
 * * * block
 * * css allow
@@ -81,6 +83,8 @@ referrer-spoof: wsj.com false
 * maps.googleapis.com fetch allow
 * maps.googleapis.com script allow
 * newassets.hcaptcha.com frame allow
+* plausible.io fetch block
+* plausible.io script block
 * push.zhanzhang.baidu.com * block
 * recaptcha.net cookie allow
 * recaptcha.net fetch allow
@@ -196,6 +200,7 @@ bbc.co.uk bbc.com * allow
 bbc.co.uk bbci.co.uk * allow
 bbc.com bbc.co.uk * allow
 bbc.com bbci.co.uk * allow
+bbc.com bbcverticals.com * allow
 bellingcat.com netdna-ssl.com * allow
 bilibili.com acgvideo.com * allow
 bilibili.com bigfun.cn * allow
@@ -314,6 +319,9 @@ douyu.com douyucdn.cn * allow
 dropbox.com dropboxstatic.com * allow
 duba.net bbs.duba.net * inherit
 duba.net duba.net * inherit
+earthengine.app apis.google.com * allow
+earthengine.app content-earthengine.googleapis.com * allow
+earthengine.app earthengine.googleapis.com * allow
 facebook.com fbcdn.net * allow
 fast.com * fetch allow
 feedburner.com feedburner.google.com * allow
@@ -455,11 +463,13 @@ kamiya.dev unpkg.zhimg.com script allow
 kdocs.cn wpscdn.cn * allow
 khanacademy.org kastatic.org * allow
 khanacademy.org s3.amazonaws.com * allow
+kookapp.cn kaiheila.cn * allow
 kuaishou.com yximgs.com * allow
 kuaishou.com yximgs.com frame allow
 lang.live lv-play.com * allow
 lang.live lv-show.com * allow
 latlong.net unpkg.com script allow
+letsencrypt.org discourse-cdn.com * allow
 lexiangla.com lexiang-asset.com * allow
 lexiangla.com qcloud.com * allow
 liangxinyao.com alicdn.com * allow
@@ -517,8 +527,9 @@ nasa.gov ustream.tv frame allow
 ncss.cn chei.com.cn * allow
 netflix.com nflxext.com * allow
 nga.cn 178.com * allow
+nhk.or.jp nhk.jp * allow
+nhk.or.jp nhkworld.jp * allow
 nytimes.com nyt.com * allow
-nytimes.com www.nytimes.com script block
 oneplus.com heytapmobi.com * allow
 oneplus.com oneplus.cn * allow
 oneplus.com oppo.com * allow
@@ -531,6 +542,7 @@ opencellid.org locationiq.com * allow
 opencellid.org mapbox.com * allow
 opencellid.org sentry.io * allow
 openstreetmap.org jsdelivr.net * allow
+openstreetmap.org matomo.openstreetmap.org * block
 openstreetmap.org overpass-api.de * allow
 openstreetmap.org virtualearth.net * allow
 paypal.com paypalobjects.com * allow
@@ -565,6 +577,7 @@ quora.com quora.com cookie block
 quora.com quoracdn.net * allow
 qweather.com qweather.net * allow
 radio.garden * media allow
+redd.it redditstatic.com * allow
 reddit.com redditstatic.com * allow
 renren.com xnimg.cn * allow
 riot.im matrix.org * allow
@@ -669,8 +682,10 @@ tmall.com aliyun.com * allow
 tmall.com taobao.com * allow
 tmall.com taobao.com frame allow
 tmall.com tbcdn.cn * allow
+tomshardware.com futurecdn.net * allow
 tools.wmflabs.org wikipedia.org * allow
 torproject.org ooni.io * allow
+toutiao.com bytescm.com * allow
 toutiao.com pstatp.com * allow
 translate.goog translate.google.com * allow
 translate.goog translate.google.com frame allow
@@ -748,12 +763,12 @@ wordpress.com typekit.net * allow
 wordpress.org s.w.org script allow
 wps.cn wpscdn.cn * allow
 wunderground.com weather.com * allow
+xbeibeix.com bilivideo.com * allow
 xiaohongshu.com xhscdn.com * allow
 xiaomi.com mi-img.com * allow
 xiaomi.com mi.com * allow
 xiaomi.com mi.com frame allow
 xmind.app xmind.net * allow
-xmind.works plausible.io * allow
 xuetangx.com qq.com * allow
 xuetangx.com t.captcha.qq.com frame allow
 xybsyw.com qiyukf.com * allow
@@ -772,12 +787,13 @@ youtube.com googleusercontent.com * allow
 youtube.com googlevideo.com * allow
 youtube.com gstatic.com * allow
 youtube.com ytimg.com * allow
+youzan.com yzcdn.cn * allow
 yy.com bigda.com * allow
 yy.com yystatic.com * allow
 zaobao.com.sg amazonaws.com * allow
+zaobao.com.sg dsuwzj1tch87b.cloudfront.net * allow
 zaobao.com.sg sph.com.sg * allow
 zhaopin.com amap.com * allow
-zhaopin.com api.geetest.com cookie allow
 zhaopin.com dkapi.geetest.com fetch allow
 zhaopin.com qq.com * allow
 zhaopin.com zhaopin.cn * allow
