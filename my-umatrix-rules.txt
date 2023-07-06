@@ -530,6 +530,7 @@ nga.cn 178.com * allow
 nhk.or.jp nhk.jp * allow
 nhk.or.jp nhkworld.jp * allow
 nytimes.com nyt.com * allow
+nytimes.com www.nytimes.com script block
 oneplus.com heytapmobi.com * allow
 oneplus.com oneplus.cn * allow
 oneplus.com oppo.com * allow
@@ -794,8 +795,6 @@ zaobao.com.sg amazonaws.com * allow
 zaobao.com.sg dsuwzj1tch87b.cloudfront.net * allow
 zaobao.com.sg sph.com.sg * allow
 zhaopin.com amap.com * allow
-zhaopin.com dkapi.geetest.com fetch allow
-zhaopin.com qq.com * allow
 zhaopin.com zhaopin.cn * allow
 zhihu.com audio.zhimg.com * allow
 zhihu.com mqtt-web.zhihu.com * block
