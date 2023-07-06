@@ -10,19 +10,8 @@
 ||stun.qqlive.qq.com^
 ||btrace.qq.com^
 ||teg.tencent-cloud.net^
-!||apd-pcdnvodstat.teg.tencent-cloud.net^
-!||apd-vodp2preport.teg.tencent-cloud.net^
-!||apd-pcdnwxstat.teg.tencent-cloud.net^
-!||apd-pcdnwxnat.teg.tencent-cloud.net^
-!||apd-pcdnwxlogin.teg.tencent-cloud.net^
-!||apd-vodp2pnat.teg.tencent-cloud.net^
-!||apd-vodp2plogin.teg.tencent-cloud.net^
 ||liveplay.egame.qq.com^
-!||flv265-txpcdn-direct.liveplay.egame.qq.com^
-!||txpcdn-direct.liveplay.egame.qq.com^
-!||txpcdn.liveplay.egame.qq.com^
-!||xnet-flv264.liveplay.egame.qq.com^
-!||flv265-txpcdn.liveplay.egame.qq.com^
+||collector.weiyun.com^
 !!msfwifi.3g.qq.com
 *.3g.qq.com
 ! [微信]
@@ -33,7 +22,6 @@
 ||dns.weixin.qq.com.cn^
 ||badjs.weixinbridge.com^
 ||log.weixin.qq.com^
-||collector.weiyun.com^
 ! [腾讯云 X-P2P] 
 ||qvb.qcloud.com^
 !||log.qvb.qcloud.com^
@@ -122,20 +110,23 @@
 ||log2.cmpassport.com^
 ||senlog.cmpassport.com^
 ||dnlog.cmpassport.com^
-! [哔哩哔哩 Bilibili]
-||ali-web-player-tracker.biliapi.net^
-||hw-v2-web-player-tracker.biliapi.net^
 ! [Keep]
 ||uplog.qbox.me^
 ||httpdns.calorietech.com^
 ||kit-device-log-1252363965.cos.ap-beijing.myqcloud.com^
-!https://m.gotokeep.com/fd-page/partner/animation?fullscreen=true&type=kg
+! https://m.gotokeep.com/fd-page/partner/animation?fullscreen=true&type=kg
 ||apm.gotokeep.com^
 ||app-apm.gotokeep.com^
 ! [金山词霸]
 ||goods.iciba.com^
 ||activity.iciba.com
 ||feedback.kingsoft.com^
+! [嘀嘀打车]
+||adtrack.xiaojukeji.com^
+! [中国农业银行]
+||click.abchina.com^
+! [中国工商银行]
+||pageviewp.icbc.com.cn^
 ! [错误屏蔽] 
 @@||t.co^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149689
@@ -145,8 +136,6 @@
 @@||m.qpic.cn^
 ! [未分类|待观察]
 ||logconf.iflytek.com^
-||click.abchina.com^
-||pageviewp.icbc.com.cn^
 ||applog-perf.uc.cn^
 ||trace.hjq.komect.com^
 ||mlog.wangsu.com^
@@ -156,7 +145,6 @@
 ||mtrace.play.t002.ottcn.com^
 ||errorlog.sobot.com^
 ||logreport.xiaoeknow.com^
-||adtrack.xiaojukeji.com^
 ||log-verify.mob.com^
 ! log[3,5,7]-misc-hl.amemv.com
 ||log*-misc-hl.amemv.com^
