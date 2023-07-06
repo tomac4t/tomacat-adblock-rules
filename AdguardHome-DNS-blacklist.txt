@@ -1,34 +1,46 @@
 ! personalDNSfilter DNS probe
 /www\.t\d{8,10}\.org/
-! Google
+! [Google]
 ||beacons.gvt2.com^
-! Tencent
+! [腾讯]
 ||report.url.cn^
 ||test.ark.qq.com^
 ||ipv4.gdt.qq.com^
 ||punch.p2p.qq.com^
 ||stun.qqlive.qq.com^
 ||btrace.qq.com^
-||apd-pcdnvodstat.teg.tencent-cloud.net^
-||apd-vodp2preport.teg.tencent-cloud.net^
-||apd-pcdnwxstat.teg.tencent-cloud.net^
+||teg.tencent-cloud.net^
+!||apd-pcdnvodstat.teg.tencent-cloud.net^
+!||apd-vodp2preport.teg.tencent-cloud.net^
+!||apd-pcdnwxstat.teg.tencent-cloud.net^
+!||apd-pcdnwxnat.teg.tencent-cloud.net^
+!||apd-pcdnwxlogin.teg.tencent-cloud.net^
+!||apd-vodp2pnat.teg.tencent-cloud.net^
+!||apd-vodp2plogin.teg.tencent-cloud.net^
+||liveplay.egame.qq.com^
+!||flv265-txpcdn-direct.liveplay.egame.qq.com^
+!||txpcdn-direct.liveplay.egame.qq.com^
+!||txpcdn.liveplay.egame.qq.com^
+!||xnet-flv264.liveplay.egame.qq.com^
+!||flv265-txpcdn.liveplay.egame.qq.com^
 !!msfwifi.3g.qq.com
 *.3g.qq.com
-! Wechat
-||wxa.wxs.qq.com^
-||wxsnsdy.wxs.qq.com^
-||wxsnsdythumb.wxs.qq.com^
+! [微信]
+!||wxa.wxs.qq.com^
+!||wxsnsdy.wxs.qq.com^
+!||wxsnsdythumb.wxs.qq.com^
 !! https://dns.weixin.qq.com/cgi-bin/micromsg-bin/newgetdns
 ||dns.weixin.qq.com.cn^
 ||badjs.weixinbridge.com^
 ||log.weixin.qq.com^
-! X-P2P 
+||collector.weiyun.com^
+! [腾讯云 X-P2P] 
 ||qvb.qcloud.com^
 !||log.qvb.qcloud.com^
 ||tracker-01.qvb.qcloud.com^
-! Zhihu
+! [知乎]
 ||datahub.zhihu.com^
-! Duokan 
+! [多看阅读]
 ||z.qingting.fm^
 ||data.game.xiaomi.com^
 ||relocationapi.micloud.xiaomi.net^
@@ -36,73 +48,105 @@
 ||rec.z.qingting.fm^
 ||opensdkapi.qidian.com^
 ||dm.bytedance.com^
-! Alibaba
+! [支付宝]
 ||loggw.alipay.com^
 ||loggw-ex.alipay.com^
 ||loggw.alipay.com.cn^
+||openmonitor.alipay.com^
+||openmonitor.alipay-eco.com^
 !||log.mmstat.com^$important
-! Taobao
+!@@||s-gm.mmstat.com^
+!@@||mmstat.com^
+! [淘宝]
 ||alimelog.taobao.com^
 !@@||amdc.m.taobao.com^$important
 !! neohosts unbreak
 @@||click.mz.simba.taobao.com^
-! Amap
+! [高德地图]
 @@||offline.aps.amap.com^
 @@||aps.amap.com^
-! Baidu Ad CNAME (break)
+||cgicol.amap.com^
+||dualstack-cgicol.amap.com^
+! 待观察
+!||m5.amap.com^ (break navi)
+!||sns.amap.com^ (break feedback)
+!||sync.amap.com^
+! [百度广告联盟 CNAME]
 !||yjs-cdn.com^
-!www.renfei.net
-!!@@||geolocation.onetrust.com^
-! Getui SDK
+! [个推 Getui SDK]
 ||sdk-open-phone.getui.com^
 ||sdk.open.talk.getui.com^
 ||sdk.open.talk.getui.net^
-! Getui unknown
+! [个推 Getui unknown]
 ||cm-10-62.getui.com^
 ||talk.nz4.gepush.com
 ||talk.nz4.getui.net
 ||talk.nz4.getui.com
-! Meizu SDK (push)
+! [魅族 Meizu SDK (push)]
 ||norma-external-collect.meizu.com^
-! oneplus OTA
+! [一加 Oneplus OTA]
 ||otac.h2os.com^
-! Oppo Oneplus heytap
+! [一加]
 ||mdp-usertrace-cn.heytapmobi.com^
 ||ads.heytapmobi.com^
 ||conn*.coloros.com^
 ||conn*.oppomobile.com^
-!||gateway.oneplus.cn^
+! [一加 待观察]
+||mdm.oneplus.cn^
+||appconf.heytapdownload.com^
+||appr.1plus.io^
+||conf-cn-dc.heytapdownload.com^
+||epoch-cn.cdo.heytapmobi.com^
+||gateway.oneplus.cn^
 !||heytapdownload.com^
-!||dc.oppomobile.com^
-!||jits.heytapmobi.com^
+||dc.oppomobile.com^
+||jits.heytapmobi.com^
 ||vip-client.heytapmobi.com^
 ||icredits.heytapmobi.com^
 ||httpdns.ocloud.heytapmobi.com^
-! HMS
+||newds01.myoppo.com^
+||newds02.myoppo.com^
+||omes-sec.heytapmobi.com^
+||httpdns.push.heytapmobi.com^
+||osx.oneplus.cn^
+||apup.1plus.io^
+||olcfg.1plus.io^
+! [华为 HMS]
 ||sdkserver-drcn.op.dbankcloud.cn^
-! Xiaomi
+! [小米 Xiaomi]
 ||tracker.ai.xiaomi.com^
-! Mozilla
+! [火狐 Mozilla]
 ||telemetry.mozilla.org^
-! China Mobile
+! [中国移动 China Mobile]
 ||log1.cmpassport.com^
+||log2.cmpassport.com^
 ||senlog.cmpassport.com^
-! Keep
-||uplog.qbox.me^$important
-||httpdns.calorietech.com^$important
+||dnlog.cmpassport.com^
+! [哔哩哔哩 Bilibili]
+||ali-web-player-tracker.biliapi.net^
+||hw-v2-web-player-tracker.biliapi.net^
+! [Keep]
+||uplog.qbox.me^
+||httpdns.calorietech.com^
 ||kit-device-log-1252363965.cos.ap-beijing.myqcloud.com^
 !https://m.gotokeep.com/fd-page/partner/animation?fullscreen=true&type=kg
 ||apm.gotokeep.com^
 ||app-apm.gotokeep.com^
-! https://github.com/AdguardTeam/AdguardFilters/issues/149689
-@@||xtracloud.net^
-@@||izatcloud.net^
-! watch | unknown | unclassified
-||logconf.iflytek.com^
-||pageviewp.icbc.com.cn^
+! [金山词霸]
 ||goods.iciba.com^
 ||activity.iciba.com
 ||feedback.kingsoft.com^
+! [错误屏蔽] 
+@@||t.co^
+! https://github.com/AdguardTeam/AdguardFilters/issues/149689
+@@||xtracloud.net^
+@@||izatcloud.net^
+! [QQ空间 unbreak neohosts]
+@@||m.qpic.cn^
+! [未分类|待观察]
+||logconf.iflytek.com^
+||click.abchina.com^
+||pageviewp.icbc.com.cn^
 ||applog-perf.uc.cn^
 ||trace.hjq.komect.com^
 ||mlog.wangsu.com^
@@ -112,4 +156,10 @@
 ||mtrace.play.t002.ottcn.com^
 ||errorlog.sobot.com^
 ||logreport.xiaoeknow.com^
-@@||t.co^
+||adtrack.xiaojukeji.com^
+||log-verify.mob.com^
+! log[3,5,7]-misc-hl.amemv.com
+||log*-misc-hl.amemv.com^
+||natdetection.onethingpcs.com^
+||logapi-and.zhipin.com^
+!!@@||geolocation.onetrust.com^
