@@ -66,10 +66,6 @@ referrer-spoof: wsj.com false
 * code.jquery.com script allow
 * cstaticdun.126.net script allow
 * cstaticdun1.126.net script allow
-* disqus.com fetch allow
-* disqus.com frame allow
-* disqus.com script allow
-* disquscdn.com script allow
 * dkapi.geetest.com fetch allow
 * dun.163.com script allow
 * dun.163yun.com script allow
