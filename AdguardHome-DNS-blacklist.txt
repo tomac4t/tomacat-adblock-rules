@@ -1,4 +1,4 @@
-! personalDNSfilter DNS probe
+! [personalDNSfilter DNS probe]
 /www\.t\d{8,10}\.org/
 ! [Google]
 ||beacons.gvt2.com^
@@ -25,7 +25,7 @@
 ! [腾讯云 X-P2P] 
 ||qvb.qcloud.com^
 !||log.qvb.qcloud.com^
-||tracker-01.qvb.qcloud.com^
+!||tracker-01.qvb.qcloud.com^
 ! [知乎]
 ||datahub.zhihu.com^
 ! [多看阅读]
@@ -56,16 +56,21 @@
 ||cgicol.amap.com^
 ||dualstack-cgicol.amap.com^
 ! 待观察
+||qchannel01.cn^
+||apilocate.amap.com^
+||page.amap.com^
+||awaken.amap.com^
 !||m5.amap.com^ (break navi)
 !||sns.amap.com^ (break feedback)
-!||sync.amap.com^
+!||sync.amap.com^ (accounts?)
+!||mps.amap.com (路况)
 ! [百度广告联盟 CNAME]
 !||yjs-cdn.com^
 ! [个推 Getui SDK]
 ||sdk-open-phone.getui.com^
 ||sdk.open.talk.getui.com^
 ||sdk.open.talk.getui.net^
-! [个推 Getui unknown]
+! [个推 Getui 待观察]
 ||cm-10-62.getui.com^
 ||talk.nz4.gepush.com
 ||talk.nz4.getui.net
@@ -81,35 +86,38 @@
 ||conn*.oppomobile.com^
 ! [一加 待观察]
 ||mdm.oneplus.cn^
-||appconf.heytapdownload.com^
+||gateway.oneplus.cn^
+||osx.oneplus.cn^
 ||appr.1plus.io^
+||apup.1plus.io^
+||olcfg.1plus.io^
+!||heytapdownload.com^
+||appconf.heytapdownload.com^
 ||conf-cn-dc.heytapdownload.com^
 ||epoch-cn.cdo.heytapmobi.com^
-||gateway.oneplus.cn^
-!||heytapdownload.com^
-||dc.oppomobile.com^
 ||jits.heytapmobi.com^
 ||vip-client.heytapmobi.com^
 ||icredits.heytapmobi.com^
 ||httpdns.ocloud.heytapmobi.com^
-||newds01.myoppo.com^
-||newds02.myoppo.com^
 ||omes-sec.heytapmobi.com^
 ||httpdns.push.heytapmobi.com^
-||osx.oneplus.cn^
-||apup.1plus.io^
-||olcfg.1plus.io^
+||dc.oppomobile.com^
+||newds01.myoppo.com^
+||newds02.myoppo.com^
 ! [华为 HMS]
 ||sdkserver-drcn.op.dbankcloud.cn^
-! [小米 Xiaomi]
+! [小米]
 ||tracker.ai.xiaomi.com^
+! 观察
+!||api.account.xiaomi.com^
+!||api.micloud.xiaomi.net^
 ! [火狐 Mozilla]
 ||telemetry.mozilla.org^
-! [中国移动 China Mobile]
+! [中国移动]
 ||log1.cmpassport.com^
 ||log2.cmpassport.com^
-||senlog.cmpassport.com^
 ||dnlog.cmpassport.com^
+||senlog.cmpassport.com^
 ! [Keep]
 ||uplog.qbox.me^
 ||httpdns.calorietech.com^
@@ -118,11 +126,9 @@
 ||apm.gotokeep.com^
 ||app-apm.gotokeep.com^
 ! [金山词霸]
-||goods.iciba.com^
 ||activity.iciba.com
+||goods.iciba.com^
 ||feedback.kingsoft.com^
-! [嘀嘀打车]
-||adtrack.xiaojukeji.com^
 ! [中国农业银行]
 ||click.abchina.com^
 ! [中国工商银行]
@@ -139,7 +145,6 @@
 ||applog-perf.uc.cn^
 ||trace.hjq.komect.com^
 ||mlog.wangsu.com^
-||aads.shuzilm.cn^
 ||api.htp.ad-scope.com.cn^
 ||btrace.play.t002.ottcn.com^
 ||mtrace.play.t002.ottcn.com^
