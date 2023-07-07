@@ -616,6 +616,7 @@ solidot.org solidot.org cookie block
 sourceforge.net fsdn.com * allow
 speedtest.net * fetch allow
 speedtest.net cdnst.net * allow
+spotwx.com highcharts.com * allow
 stackexchange.com sstatic.net * allow
 stackoverflow.com cdn.sstatic.net script allow
 steamcommunity.com akamaihd.net * allow
