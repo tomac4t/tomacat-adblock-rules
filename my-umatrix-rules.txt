@@ -44,7 +44,6 @@ referrer-spoof: wsj.com false
 * ajax.cloudflare.com script allow
 * ajax.googleapis.com script allow
 * ampproject.org script allow
-* analysis.fi * block
 * api.geetest.com cookie allow
 * api.geevisit.com script allow
 * aspnetcdn.com script allow
@@ -81,20 +80,16 @@ referrer-spoof: wsj.com false
 * newassets.hcaptcha.com frame allow
 * plausible.io fetch block
 * plausible.io script block
-* push.zhanzhang.baidu.com * block
 * recaptcha.net cookie allow
 * recaptcha.net fetch allow
 * recaptcha.net frame allow
 * recaptcha.net script allow
-* s.360.cn * block
-* sp0.baidu.com * block
 * t.captcha.qq.com frame allow
 * unpkg.com script allow
 * www.google.com cookie allow
 * www.google.com fetch allow
 * www.google.com frame allow
 * www.google.com script allow
-* zz.bdstatic.com * block
 10010.com 10010.cn * allow
 122.gov.cn alicdn.com * allow
 122.gov.cn aliyun.com * allow
@@ -124,7 +119,6 @@ referrer-spoof: wsj.com false
 4kvm.com jfh6688.cn * allow
 4kvm.com loveud.com * allow
 51job.com js.51jobcdn.com * allow
-51job.com trace.51jingying.com * block
 95095.com alicdn.com * allow
 95095.com taobao.com * allow
 95095.com taobao.com frame allow
@@ -138,6 +132,7 @@ acfun.cn aixifan.com * allow
 adsbexchange.com global.adsbexchange.com image block
 adsbexchange.com openstreetmap.org * allow
 alibaba.com aliapp.org * allow
+alibaba.com alibaba-inc.com * allow
 alibaba.com alicdn.com * allow
 alipay.com 127.0.0.1 * allow
 alipay.com alicdn.com * allow
@@ -595,7 +590,6 @@ sf-express.com captcha.guard.qcloud.com frame allow
 sf-express.com gtimg.com * allow
 sf-express.com qcloud.com * allow
 sina.cn sinaimg.cn * allow
-sina.com.cn sbeacon.sina.com.cn * block
 sina.com.cn simg.sinajs.cn * inherit
 sina.com.cn sinaimg.cn * allow
 sina.com.cn sjs.sinajs.cn * allow
@@ -737,7 +731,6 @@ weibo.cn sinaimg.cn * allow
 weibo.com dji.net * allow
 weibo.com krcom.cn * allow
 weibo.com miaopai.com * allow
-weibo.com sbeacon.sina.com.cn * block
 weibo.com sina.com.cn * allow
 weibo.com sina.com.cn frame allow
 weibo.com sinaimg.cn * allow
@@ -795,11 +788,9 @@ zhaopin.com amap.com * allow
 zhaopin.com zhaopin.cn * allow
 zhihu.com audio.zhimg.com * allow
 zhihu.com mqtt-web.zhihu.com * block
-zhihu.com sugar.zhihu.com * block
 zhihu.com unpkg.zhimg.com * allow
 zhihu.com vzuu.com * allow
 zhihu.com vzuu.com frame allow
-zhihu.com zhihu-web-analytics.zhihu.com * block
 zhihu.com zhimg.com * allow
 zhipin.com ac.dun.163.com fetch allow
 zhipin.com ac.dun.163yun.com fetch allow
