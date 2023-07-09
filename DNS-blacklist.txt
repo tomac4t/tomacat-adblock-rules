@@ -12,8 +12,7 @@
 ||teg.tencent-cloud.net^
 ||liveplay.egame.qq.com^
 ||collector.weiyun.com^
-!!msfwifi.3g.qq.com
-*.3g.qq.com
+||*.3g.qq.com^
 !! http://119.29.29.29/d?dn=www.qq.com
 ! [微信]
 !||wxa.wxs.qq.com^
@@ -58,7 +57,7 @@
 ||dualstack-cgicol.amap.com^
 ! 待观察
 ||qchannel01.cn^
-||apilocate.amap.com^
+!||apilocate.amap.com^
 ||page.amap.com^
 ||awaken.amap.com^
 !||m5.amap.com^ (break navi)
@@ -143,6 +142,20 @@
 @@||izatcloud.net^
 ! [QQ空间 unbreak neohosts]
 @@||m.qpic.cn^
+! [常见前缀特征屏蔽(激进)]
+|analytics.
+|beacon.
+|click.
+|collect.
+|httpdns.
+|log.
+|matomo.
+@@||matomo.org^
+|pixel.
+|telemetry.
+|track.
+|tracker.
+|tracking.
 ! [未分类|待观察]
 ||logconf.iflytek.com^
 ||applog-perf.uc.cn^
@@ -160,5 +173,5 @@
 ||logapi-and.zhipin.com^
 !!@@||geolocation.onetrust.com^
 ||crash2.zhihu.com^
+||*.shuzilm.cn^
 ||httpdns.kwd.inkuai.com^
-||ipv6.shuzilm.cn^
