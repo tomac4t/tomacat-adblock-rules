@@ -5,7 +5,7 @@
   - [AdAway Default Blocklist](https://adaway.org/hosts.txt)
   - [WindowsSpyBlocker - Hosts spy rules](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt)
   - neohosts: https://raw.githubusercontent.com/neoFelhz/neohosts/gh-pages/basic/hosts.txt
-- [`uMatrix-rules.txt`](my-umatrix-rules.txt): uMatrix 规则集，并作为以下 Hosts 规则的补充（已做去重处理）。覆盖了国内外常见网站的访问情况，加入但是最近去除了 Disquc (https://github.com/tomac4t/tomacat-adblock-rules/commit/3596efe9c0b852d9415fc9b99d2e8adee7c0b677) 的全局规则，原因是它严重拖慢网站访问速度，其次它是中心化平台隐私不友好，背离了本规则的初衷。本规则在会在隐私和不破坏网站的情况下做出平衡，目前已加入常见前端公共库域名、常见验证码平台域名作为全局规则。
+- [`uMatrix-rules.txt`](uMatrix-rules.txt): uMatrix 规则集，并作为以下 Hosts 规则的补充（已做去重处理）。覆盖了国内外常见网站的访问情况，加入但是最近去除了 Disquc (https://github.com/tomac4t/tomacat-adblock-rules/commit/3596efe9c0b852d9415fc9b99d2e8adee7c0b677) 的全局规则，原因是它严重拖慢网站访问速度，其次它是中心化平台隐私不友好，背离了本规则的初衷。本规则在会在隐私和不破坏网站的情况下做出平衡，目前已加入常见前端公共库域名、常见验证码平台域名作为全局规则。
   - Dan Pollock’s hosts file
   - Peter Lowe’s Ad and tracking server list
   - https://adaway.org/hosts.txt
