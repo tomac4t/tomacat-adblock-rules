@@ -14,6 +14,7 @@
 ||collector.weiyun.com^
 !!msfwifi.3g.qq.com
 *.3g.qq.com
+!! http://119.29.29.29/d?dn=www.qq.com
 ! [微信]
 !||wxa.wxs.qq.com^
 !||wxsnsdy.wxs.qq.com^
@@ -45,13 +46,13 @@
 !||log.mmstat.com^$important
 !@@||s-gm.mmstat.com^
 !@@||mmstat.com^
+||cdn-mum.alibabachengdun.com^
 ! [淘宝]
 ||alimelog.taobao.com^
 !@@||amdc.m.taobao.com^$important
 !! neohosts unbreak
 @@||click.mz.simba.taobao.com^
 ! [高德地图]
-@@||offline.aps.amap.com^
 @@||aps.amap.com^
 ||cgicol.amap.com^
 ||dualstack-cgicol.amap.com^
@@ -64,6 +65,8 @@
 !||sns.amap.com^ (break feedback)
 !||sync.amap.com^ (accounts?)
 !||mps.amap.com (路况)
+! [哔哩哔哩]
+||data.bilibili.com^
 ! [百度广告联盟 CNAME]
 !||yjs-cdn.com^
 ! [个推 Getui SDK]
@@ -156,3 +159,6 @@
 ||natdetection.onethingpcs.com^
 ||logapi-and.zhipin.com^
 !!@@||geolocation.onetrust.com^
+||crash2.zhihu.com^
+||httpdns.kwd.inkuai.com^
+||ipv6.shuzilm.cn^
